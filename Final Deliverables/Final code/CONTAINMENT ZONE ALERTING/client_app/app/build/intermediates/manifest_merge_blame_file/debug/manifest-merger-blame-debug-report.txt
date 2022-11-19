@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.client_containment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:4:5-79
+11-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:6:5-67
+13-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:7:5-79
+14-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:8:5-76
+15-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:8:22-73
+16
+17    <application
+17-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:10:5-30:19
+18        android:allowBackup="true"
+18-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.1] C:\Users\sukhit kumar\.gradle\caches\transforms-3\9ecc01f51ea2588f3397301cac56a876\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:15:9-35
+25        android:theme="@style/Theme.Client_Containment"
+25-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:17:9-56
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:16:9-44
+27        <activity android:name="com.example.client_containment.SignUp" >
+27-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:18:9-24:20
+27-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:18:19-41
+28            <intent-filter>
+28-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <receiver android:name="com.example.client_containment.Service.MyLocationService" />
+35-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:26:9-63
+35-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:26:19-60
+36
+37        <activity android:name="com.example.client_containment.MainActivity" >
+37-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:28:9-29:20
+37-->C:\Users\sukhit kumar\Downloads\IBM-Project-16429-1659614398-main\Final Deliverables\Final code\CONTAINMENT ZONE ALERTING\client_app\app\src\main\AndroidManifest.xml:28:19-47
+38        </activity>
+39        <activity
+39-->[com.karumi:dexter:5.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\5c211a1803fd78c923826aab2dfc524a\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+40            android:name="com.karumi.dexter.DexterActivity"
+40-->[com.karumi:dexter:5.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\5c211a1803fd78c923826aab2dfc524a\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+41            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+41-->[com.karumi:dexter:5.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\5c211a1803fd78c923826aab2dfc524a\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+42        <activity
+42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\c66b905017cb0a83b00a19f5f6e5d20c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+43            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\c66b905017cb0a83b00a19f5f6e5d20c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+44            android:exported="false"
+44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\c66b905017cb0a83b00a19f5f6e5d20c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\c66b905017cb0a83b00a19f5f6e5d20c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+46
+47        <meta-data
+47-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\31a6c5dfe4610270c4c3dd959c8702fe\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+48            android:name="com.google.android.gms.version"
+48-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\31a6c5dfe4610270c4c3dd959c8702fe\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\sukhit kumar\.gradle\caches\transforms-3\31a6c5dfe4610270c4c3dd959c8702fe\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+50    </application>
+51
+52</manifest>
